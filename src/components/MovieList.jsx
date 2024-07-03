@@ -81,23 +81,27 @@ const MovieList = () => {
                         name="title"
                         value={editedMovie.title}
                         onChange={handleEditChange}
+                        className='input-card'
                       />
                       <textarea
                         name="description"
                         value={editedMovie.description}
                         onChange={handleEditChange}
+                          className='input-card'
                       />
                       <input
                         type="text"
                         name="releaseYear"
                         value={editedMovie.releaseYear}
                         onChange={handleEditChange}
+                          className='input-card'
                       />
                       <input
                         type="text"
                         name="genre"
                         value={editedMovie.genre}
                         onChange={handleEditChange}
+                          className='input-card'
                       />
                       <div className='edit-btns'>
                         <button type="submit" className='btn-edit-save'>Save</button>
